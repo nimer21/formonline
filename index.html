@@ -61,12 +61,25 @@
                 <div class="row">
                     <img src="./img/get-in-touch.png" alt="Get In Touch">
                     <form action="https://formsubmit.co/Roni.Hihi@sos-palestine.org" method="POST">
+                        <input type="hidden" name="_subject" value="Online Form submission - SOS Children's Villages Palestine!">
+                        <input type="hidden" name="_cc" value="Nimer.Alsayed@sos-palestine.org">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://sos-palestine.org/en/">
+
+                        <label for="Name">اسم المورد - Supplier Name</label>
                         <input type="text" name="Name" id="Name" placeholder="اسم المورد - Supplier Name" required>
-                        <input type="text" name="Name" id="Name" placeholder="مجال المنتجات / الخدمات - Field of Products / Services" required>
-                        <input type="text" name="Name" id="Name" placeholder="الشخص المسؤول للتواصل - Contact Person" required>
-                        <input type="email" name="Email" id="Email" placeholder="البريد الإلكتروني - Email" required>
-                        <input type="number" name="Name" id="Name" placeholder="رقم الهاتف - Phone Number" required>
-                        <input type="text" name="Name" id="Name" placeholder="تفاصيل الأسعار / النماذج المتوفرة - Price Details / Available Models" required>
+                        <label for="Name">مجال المنتجات / الخدمات - Field of Products / Services</label>
+                        <input type="text" name="Field" id="Field" placeholder="مجال المنتجات / الخدمات - Field of Products / Services" required>
+                        <label for="Name">الشخص المسؤول للتواصل - Contact Person</label>
+                        <input type="text" name="Contact" id="Contact" placeholder="الشخص المسؤول للتواصل - Contact Person">
+                        <label for="Email">البريد الإلكتروني - Email</label>
+                        <input type="email" name="Email" id="Email" placeholder="البريد الإلكتروني - Email">
+                        <label for="Name">رقم الهاتف - Phone Number</label>
+                        <input type="number" name="Phone" id="Phone" placeholder="رقم الهاتف - Phone Number" required>
+                        <label for="Name">تفاصيل الأسعار / النماذج المتوفرة - Price Details / Available Models</label>
+                        <input type="text" name="Price" id="Price" placeholder="تفاصيل الأسعار / النماذج المتوفرة - Price Details / Available Models">
+                        <label for="Message">معلومات إضافية - Additional Information</label>
                         <textarea name="Message" id="Message" cols="30" rows="10" placeholder="معلومات إضافية - Additional Information"></textarea>
                         <button type="submit" class="btn-primary">إرسال</button>
                     </form>
@@ -77,7 +90,7 @@
      </main>
      <!-- Footer Start -->
       <footer id="footer">
-        <p>&copy; 2024 My Website. All Rights Reserved.</p>
+        <p>&copy; 2024 <a href="https://sos-palestine.org">SOS Children's Villages - Palestine.</a> All Rights Reserved.</p>
       </footer>
      <!-- Footer End -->    
 </body>
